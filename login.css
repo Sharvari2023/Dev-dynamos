@@ -1,0 +1,43 @@
+body{
+    font-family: sans-serif;  
+}
+.signup{
+    width: 360px;
+    height: 620px;
+    margin:auto;
+    border: 1px solid black;
+    height: auto;
+    border-radius: 25px;
+    background-color:rgba(238, 222, 178, 0.767) ;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+form{
+    width: 400px;
+    margin-left: 15px;
+    border-radius: 6px;
+    
+}
+form label{
+    display: flex;
+    margin-top: 15px;
+    font-size: 20px;
+}
+form input{
+    width: 80%;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: rgb(235, 230, 222);
+}
+input[type="button"]{
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 30%;    
+}
+form p{
+    margin-left: 50px;
+}
