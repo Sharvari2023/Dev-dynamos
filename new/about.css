@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#e9bdbe;
+}
+.mynav{
+    background-color:#6D6875 ;
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-content: space-between;
+    box-shadow: 0 5px 15px rgba(0,0,0, 0.6);
+    position: sticky;
+    z-index: 999;
+    left: 0px;
+    top: 0px;
+    
+}
+.active{
+    color: white;
+    font-weight: 800;
+    border-bottom: 4px solid rgb(198, 193, 193);
+    padding-bottom: 5px;
+   
+}
+   
+.myul{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    list-style: none;
+    padding-right: 10px;
+    margin-right: 40px;
+   
+}
+.logo{
+    padding: 7px;
+    margin-left: 20px;
+}
+
+a{
+    color: white;
+    font-size: 17px;
+    list-style: none;
+    font-family: cursive;
+    text-decoration: none;
+    
+    
+}
+a:hover{
+    padding-bottom: 18px;
+    
+    font-weight: 600;
+    color:white;
+    border-bottom: 2px solid gray;
+}
+/* About page  */
+
+#page-header .about-header{
+    background-image:url("./b2.jpg") ;
+}
+
+#about-head{
+    margin-left: 250px;
+    background-color:rgb(176, 138, 158);
+    margin-top: 100px;
+    border-radius: 9px;
+    border: 2px solid gray;
+    width: 70%;
+    box-shadow: 0 5px 15px rgba(0,0,0, 0.6);
+    height: 280px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+
+#about-head div{
+    padding-left: 40px;
+}
+#about-app{
+    text-align: center;
+}
+
+
+
+/* for making website responsive in small screen */
+@media(max-width: 477px){
+/* single product ke andar*/
+/* blog page */
+
+/* #blog{
+    padding: 100px 20px 0 20px;
+}
+#blog .blog-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#blog .blog_img{
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+}
+#blog .blog-details{
+    width: 100%
+}
+*/ 
+#about-head{
+ flex-direction: column;
+ 
+}
+#about-head img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#about-head div{
+    padding-left: 0px;
+}
+#about-app .video{
+    width:100%;
+}
+}
+.footer{
+    margin-top: 100px;
+    background-color:#11001c;
+}
+.footer h4{
+    color: whitesmoke;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    position: relative;
+    margin-top: 20px;
+    padding-left: 15px;
+
+
+}
+.footer .col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer .col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    
+    display: block;
+}
+.footer h4::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    
+    width: 50px;
+    height: 2px;
+}
+.footer .col{
+    width: auto;
+    padding: 0 15px;
+}
+.footer .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

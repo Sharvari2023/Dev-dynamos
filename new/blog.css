@@ -1,0 +1,188 @@
+/* blog section css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#e7cccc;
+}
+.mynav{
+    background-color:#6D6875 ;
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-content: space-between;
+    box-shadow: 0 5px 15px rgba(0,0,0, 0.6);
+    position: sticky;
+    z-index: 999;
+    left: 0px;
+    top: 0px;
+    
+}
+.active{
+    color: white;
+    font-weight: 800;
+    border-bottom: 4px solid rgb(198, 193, 193);
+    padding-bottom: 5px;
+   
+}
+   
+.myul{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    list-style: none;
+    padding-right: 10px;
+    margin-right: 40px;
+   
+}
+.logo{
+    padding: 7px;
+    margin-left: 20px;
+}
+
+a{
+    color: white;
+    font-size: 17px;
+    list-style: none;
+    font-family: cursive;
+    text-decoration: none;
+    
+    
+}
+a:hover{
+    padding-bottom: 18px;
+    
+    font-weight: 600;
+    color:white;
+    border-bottom: 2px solid gray;
+}
+
+/* #page-header .blog-header{
+    background-image: url("img/banner/b19.jpg");
+} */
+#blog{
+    padding:150px 150px 0 150px;
+}
+#blog .blog-box{
+    display: flex;
+    
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+    padding-bottom: 20px ;
+}
+.blog-box{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.blog-details{
+    float: right;
+}
+#blog .blog-img {
+ width: 50%
+ margin-right  40px;
+}
+
+#blog img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+#blog .blog-details a{
+text-decoration: none;
+font-size: 11px;
+color: #1000;
+font-weight: 700;
+position:relative;
+transition: 0.3s;
+
+}
+#blog .blog-details a::after{
+    content: "";
+    width:50px;
+    height: 1px;
+    background-color:#000 ;
+    position: absolute;
+    top:4px;
+    right: -60px;
+}
+
+#blog .blog-details a:hover{
+    color:#088178;
+}
+
+#blog .blog-details a:hover::after{
+    background-color:#088178;
+}
+#blog .blog-box h1{
+    position: absolute;
+    top: 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: #e9ecf1;
+    z-index: -9;
+}
+
+/* single product ke andar*/
+/* blog page */
+
+#blog{
+    padding: 100px 20px 0 20px;
+}
+#blog .blog-box{
+    display: flex;
+    
+    align-items: flex-start;
+}
+#blog .blog_img{
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+}
+.footer{
+    background-color:#11001c;
+}
+.footer h4{
+    color: whitesmoke;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    position: relative;
+    margin-top: 20px;
+    padding-left: 15px;
+
+
+}
+.footer .col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer .col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    
+    display: block;
+}
+.footer h4::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    
+    width: 50px;
+    height: 2px;
+}
+.footer .col{
+    width: auto;
+    padding: 0 15px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
